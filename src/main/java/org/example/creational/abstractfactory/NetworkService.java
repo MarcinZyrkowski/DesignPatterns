@@ -1,10 +1,10 @@
 package org.example.creational.abstractfactory;
 
-public class NetworkService implements Service{
+public class NetworkService implements Service {
 
-  @Override
-  public String runService() {
-    return "Network service running";
-  }
-  
+    @Override
+    public String runService() {
+        return "Network service running";
+    }
+
 }

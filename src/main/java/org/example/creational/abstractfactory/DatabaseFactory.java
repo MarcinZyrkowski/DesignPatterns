@@ -1,15 +1,15 @@
 package org.example.creational.abstractfactory;
 
-public class DatabaseFactory implements DataSourceAbstractFactory{
+public class DatabaseFactory implements DataSourceAbstractFactory {
 
-  @Override
-  public Service createService() {
-    return new DatabaseService();
-  }
+    @Override
+    public Service createService() {
+        return new DatabaseService();
+    }
 
-  @Override
-  public Response createResponse() {
-    return new DatabaseResponse();
-  }
-  
+    @Override
+    public Response createResponse() {
+        return new DatabaseResponse();
+    }
+
 }
